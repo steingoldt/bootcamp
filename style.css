@@ -1,19 +1,73 @@
-.heading-style,
-li,
-ol
- {
-  color: #333;
-  background: #ccc;
-  font-family: "Arial";
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 20px;
+    cursor: pointer;
 }
-li a {
-  color: #825;
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
 }
-
-a::before {
-  content: "Link "
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
-
-a:hover:before {
-  display: block;
+.dropdown-content a {
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: table;
+}
+.show {display:block;}
+h1 {
+  background-color: #777;
+  letter-spacing: 2rem;
+  text-align: center;
+  border: 2em;
+  border-color: rgb(169, 168, 196);
+  border-style: solid;
+  color: rgb(220, 220, 224);
+}
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+.clearfix {
+  overflow: auto;
+}
+body{
+  background-color: #f4e9e9;
+}
+h2 {
+  font-family: sans-serif;
+  letter-spacing: 1.5rem
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+.foot {
+  font-family: serif;
+  text-align: center;
+}
+p {
+font-family: sans-serif;
+word-spacing: 1em;
+}
+.image {
+  float: left;
+}
+#logo {
+  align-items: center;
 }
